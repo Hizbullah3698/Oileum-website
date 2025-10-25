@@ -1,3 +1,6 @@
+// ✅ servicesData.js → Basic info for listing pages
+// ✅ serviceDetails/ folder → Detailed content for individual pages
+// ✅ ServiceDetail.jsx → One component that handles all services
 import React from "react";
 import { useParams, Link } from "react-router-dom";
 import servicesData from "../../data/servicesData";
@@ -15,7 +18,7 @@ const ServiceDetail = () => {
           Service Not Found
         </h1>
         <p className="text-gray-600 mb-6">
-          The service you’re looking for doesn’t exist or has been moved.
+          The service you're looking for doesn't exist or has been moved.
         </p>
         <Link
           to="/services"
@@ -66,6 +69,18 @@ const ServiceDetail = () => {
         {detail?.sections?.map((section, i) => (
           <section key={i} className="mt-8">
             <h2 className="text-2xl font-semibold mb-3">{section.heading}</h2>
+
+            {/* ✅ THIS IS THE FIX - Display section images */}
+            {section.image && (
+              <div className="w-full h-64 md:h-96 rounded-xl overflow-hidden shadow-md my-4">
+                <img
+                  src={section.image}
+                  alt={section.heading}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            )}
+
             {Array.isArray(section.content) ? (
               <ul className="list-disc list-inside text-gray-700 space-y-2">
                 {section.content.map((item, idx) => (

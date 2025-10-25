@@ -4,7 +4,7 @@ const chemicalCleaning = {
   title: "Chemical Cleaning, Flushing & Lube Oil Flushing System",
   shortDescription:
     "Comprehensive chemical cleaning, system flushing, and lube oil flushing solutions designed to ensure optimal system cleanliness, prevent corrosion, and enhance equipment performance through industry-approved methods and certified chemicals.",
-  heroImage: "/images/services/chemical-cleaning.jpg",
+  heroImage: "/images/services/chemical-flushing/chemical-cleaning.jpg",
 
   sections: [
     {
@@ -30,6 +30,7 @@ const chemicalCleaning = {
     },
     {
       heading: "System Flushing Services",
+      image: "/images/services/chemical-flushing/system-flushing.jpg",
       content: [
         "We provide high-velocity flushing for piping systems, hydraulic circuits, and mechanical loops prior to commissioning.",
         "Using advanced flushing units and monitoring equipment, Oileum ensures system cleanliness levels meet or exceed NAS and ISO 4406 standards.",

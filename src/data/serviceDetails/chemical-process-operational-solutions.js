@@ -5,7 +5,7 @@ const chemicalProcessOperationalSolutions = {
   slug: "chemical-process-operational-solutions",
   shortDescription:
     "Advanced chemical process and operational support designed to enhance production efficiency, ensure plant safety, and drive sustainable operations across refinery and petrochemical facilities.",
-  heroImage: "/images/services/chemical-process.jpg",
+  heroImage: "/images/services/chemical-process/chemical-process.jpg", // ✅ Corrected main image path
 
   sections: [
     {
@@ -71,6 +71,7 @@ const chemicalProcessOperationalSolutions = {
     },
     {
       heading: "Energy & Sustainability Solutions",
+      image: "/images/services/chemical-process/energy-sustainability.jpg", // ✅ Added image path
       content: [
         "We design and implement energy efficiency programs and sustainable process solutions that reduce emissions, minimize waste, and optimize utilities consumption.",
         "Oileum supports clients in achieving environmental compliance and long-term sustainability goals.",

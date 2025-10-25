@@ -4,7 +4,7 @@ const environmentalSafetySolutions = {
   title: "Environmental & Safety Solutions",
   shortDescription:
     "Comprehensive environmental and safety solutions designed to help refinery and oil & gas facilities operate responsibly, safely, and in compliance with global standards through risk prevention and sustainable operations.",
-  heroImage: "/images/services/environmental-safety.jpg",
+  heroImage: "/images/services/environmental-safety/environmental-safety.jpg", // ✅ Corrected hero image path
 
   sections: [
     {
@@ -77,19 +77,12 @@ const environmentalSafetySolutions = {
       ],
     },
     {
-      heading: "Work Permit Systems",
+      heading: "Work Permit Systems & Safety Studies",
+      image: "/images/services/environmental-safety/work-permit-safety.jpg", // ✅ Added image path
       content: [
         "Oileum designs and implements permit-to-work systems to control and monitor high-risk activities such as hot work, confined space entry, and lifting operations.",
-        "These systems ensure safety discipline and accountability across all work zones.",
-        "Structured permit systems minimize risk exposure and prevent workplace incidents.",
-      ],
-    },
-    {
-      heading: "Safety Studies – HAZOP & SIL",
-      content: [
-        "We conduct Hazard and Operability (HAZOP) studies, Safety Integrity Level (SIL) assessments, and Layer of Protection Analysis (LOPA).",
-        "These studies ensure that plant processes are robust, safe, and compliant with international safety standards.",
-        "Advanced safety studies support risk-informed design and operational decision-making.",
+        "We also conduct Hazard and Operability (HAZOP) studies, Safety Integrity Level (SIL) assessments, and Layer of Protection Analysis (LOPA).",
+        "These systems and studies ensure safety discipline, accountability, and compliance with international safety standards.",
       ],
     },
   ],

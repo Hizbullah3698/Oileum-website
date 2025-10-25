@@ -3,7 +3,7 @@
 const engineeringServices = {
   title: "Engineering Services",
   slug: "engineering-services",
-  heroImage: "/images/services/engineering.jpg", // Updated image path
+  heroImage: "/images/services/engineering/engineering.jpg", // Top hero image
   shortDescription:
     "Oileum Engineering Services delivers advanced civil, structural, mechanical, electrical, and instrumentation engineering solutions tailored to refineries and oil & gas facilities.",
   sections: [
@@ -24,6 +24,7 @@ const engineeringServices = {
       heading: "Mechanical (Static & Rotating Equipment) Engineering",
       content:
         "Our mechanical team specializes in the design and analysis of both static and rotating equipment. Static equipment includes pressure vessels, heat exchangers, and storage tanks designed as per ASME and TEMA standards. Rotating equipment expertise covers pumps, compressors, and turbines engineered for high reliability and efficiency. We employ advanced tools such as ANSYS and CAESAR II for stress and vibration analysis.",
+      image: "/images/services/engineering/mechanical-equipment.jpg",
     },
     {
       heading: "Mechanical Design Considerations",
@@ -51,6 +52,7 @@ const engineeringServices = {
       heading: "Electrical & Instrumentation Engineering",
       content:
         "Oileum provides comprehensive electrical and instrumentation engineering services for refineries. We handle power distribution and generation systems including substations, transformers, switchgear, and bus ducts. Our expertise includes motor control centers, lighting systems (process and emergency), earthing/grounding systems, power protection (relays, fault coordination), and hazardous area equipment selection. We also specialize in measurement and control devices — sensors, transmitters, control valves, and actuators integrated into advanced automation systems.",
+      image: "/images/services/engineering/electrical-instrumentation.jpg",
     },
     {
       heading: "Control Systems & Instrumentation",
@@ -81,6 +83,7 @@ const engineeringServices = {
       heading: "Front-End Engineering Design (FEED) & Detailed Engineering",
       content:
         "Our FEED services define project scope, process flow, and cost estimation to establish a strong foundation for execution. During detailed engineering, we finalize layouts, datasheets, isometrics, and equipment specifications with a focus on constructability, operability, and seamless integration with procurement and construction.",
+      image: "/images/services/engineering/feed-detailed.jpg",
     },
     {
       heading: "FEED (Front-End Engineering Design)",

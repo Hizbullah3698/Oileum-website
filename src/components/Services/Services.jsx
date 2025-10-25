@@ -209,7 +209,7 @@ const servicesData = [
     iconColor: "text-cyan-600",
   },
   {
-    title: "Heat Exchanger Design & Fabrication Services",
+    title: "Heat Exchanger Design, Fabrication and Retubing",
     slug: "heat-exchanger-design-fabrication",
     shortDesc: "Custom heat exchanger solutions with expert fabrication",
     description: [
@@ -259,11 +259,10 @@ const servicesData = [
     shortDesc:
       "Specialized mechanical maintenance and technical support for turbines",
     description: [
-      "Specialized mechanical maintenance and technical support for Gas and Steam Turbines used in refineries, petrochemical, and power generation plants",
       "Turbine Maintenance",
       "Inspection & Condition Assessment",
-      "Overhauling & Reconditioning",
-      "Component Repair & Replacement",
+      "Overhauling & Parts replacement",
+      "Component Repair &refurbishment",
       "Alignment & Balancing Services",
       "Performance Optimization",
       "Emergency Maintenance & Field Services",
@@ -276,8 +275,9 @@ const servicesData = [
     bgColor: "bg-slate-50",
     iconColor: "text-slate-600",
   },
+
   {
-    title: "Chemical Cleaning, Flushing & Lube Oil Flushing System",
+    title: "Chemical Cleaning,  Lube Oil Flushing Services",
     slug: "chemical-cleaning",
     shortDesc:
       "Expert cleaning and flushing solutions for corrosion prevention and peak performance.",

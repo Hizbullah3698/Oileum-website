@@ -4,7 +4,7 @@ const mechanicalMaintenanceSolutions = {
   title: "Mechanical & Maintenance Solutions",
   shortDescription:
     "Comprehensive mechanical and maintenance solutions designed to ensure maximum reliability, availability, and performance of critical refinery assets through expert technical support and modern maintenance technologies.",
-  heroImage: "/images/services/mechanical-maintenance.jpg",
+  heroImage: "/images/services/mechanical-service/mechanical-maintenance.jpg",
 
   sections: [
     {
@@ -14,6 +14,7 @@ const mechanicalMaintenanceSolutions = {
     },
     {
       heading: "Preventive & Predictive Maintenance",
+      // image: "/images/services/mechanical-service/preventive-maintenance.jpg",
       content: [
         "We implement proactive maintenance programs that prevent unplanned shutdowns and extend asset life.",
         "Using predictive tools such as vibration analysis, infrared thermography, and oil diagnostics, we identify potential failures before they occur — ensuring safe and continuous plant operation.",

@@ -42,7 +42,7 @@ const services = [
     slug: "piping-services",
   },
   {
-    title: "Chemical Cleaning, Flushing & Lube Oil Flushing System",
+    title: "Chemical Cleaning,Lube Oil Flushing System",
     slug: "chemical-cleaning",
   },
 ];

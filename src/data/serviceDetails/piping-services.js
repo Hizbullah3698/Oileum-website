@@ -4,7 +4,7 @@ const pipingServices = {
   title: "Piping Engineering Construction & Installation Services",
   shortDescription:
     "Complete engineering, design, and construction solutions for pipeline and plant systems in refinery, petrochemical, and oil & gas facilities — delivering safe, optimized, and cost-effective project execution from concept through commissioning.",
-  heroImage: "/images/services/piping-engineering.jpg",
+  heroImage: "/images/services/piping-engineering/piping-engineering.jpg",
 
   sections: [
     {
@@ -29,27 +29,15 @@ const pipingServices = {
       ],
     },
     {
-      heading: "Piping Lay-Outing",
+      heading: "Piping Lay-Outing, Material & Stress Analysis",
+      image:
+        "/images/services/piping-engineering/piping-layout-stress-analysis.jpg",
       content: [
         "Our piping layouts are designed to minimize pressure losses, ease maintenance, and enhance plant operability.",
         "Layouts adhere to project specifications and safety regulations, ensuring logical routing and accessibility for inspection and repairs.",
-        "Optimized layouts support efficient operations and long-term maintainability.",
-      ],
-    },
-    {
-      heading: "Piping Material Specifications",
-      content: [
-        "We prepare material specifications defining all pipes, fittings, gaskets, and flanges based on process conditions, temperature, and pressure ratings.",
-        "All specifications are fully compliant with ASME, ASTM, and API standards.",
-        "Detailed material specifications ensure consistency, quality, and procurement accuracy.",
-      ],
-    },
-    {
-      heading: "Piping Stress Analysis",
-      content: [
+        "We prepare material specifications defining all pipes, fittings, gaskets, and flanges based on process conditions, temperature, and pressure ratings — fully compliant with ASME, ASTM, and API standards.",
         "Oileum conducts comprehensive stress analysis using CAESAR II and similar tools to evaluate thermal expansion, vibration, and dynamic loads.",
-        "We ensure system reliability by optimizing supports, anchors, and flexibility throughout the piping network.",
-        "Rigorous stress analysis prevents failures and extends system lifespan.",
+        "System reliability is ensured through optimized supports, anchors, and flexibility across the piping network.",
       ],
     },
     {

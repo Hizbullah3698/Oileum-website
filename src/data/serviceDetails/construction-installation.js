@@ -4,7 +4,7 @@ const constructionInstallation = {
   title: "Construction & Installation",
   shortDescription:
     "Comprehensive construction and installation services for refinery and oil & gas facilities — executed with precision, safety, and quality compliance.",
-  heroImage: "/images/services/construction.jpg",
+  heroImage: "/images/services/construction-installation/construction.jpg", // ✅ Correct hero image path
 
   sections: [
     {
@@ -43,6 +43,8 @@ const constructionInstallation = {
     },
     {
       heading: "Pre-Commissioning Support",
+      image:
+        "/images/services/construction-installation/Pre-Commissioning-Support.jpg", // ✅ Added image path
       content: [
         "We offer complete pre-commissioning support including system cleaning, flushing, pressure testing, instrumentation calibration, and leak testing.",
         "Our team ensures that all mechanical and electrical systems are fully verified and ready for operational handover.",

@@ -4,7 +4,7 @@ const heatExchangerDesignFabrication = {
   title: "Heat Exchanger Design & Fabrication Services",
   shortDescription:
     "Specialized design, fabrication, and optimization of heat exchangers tailored for refinery, petrochemical, and oil & gas operations — ensuring maximum efficiency, safety, and reliability under demanding process conditions.",
-  heroImage: "/images/services/heat-exchanger.jpg",
+  heroImage: "/images/services/heat-exchanger/heat-exchanger.jpg",
 
   sections: [
     {

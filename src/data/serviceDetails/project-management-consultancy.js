@@ -4,7 +4,7 @@ const projectManagementConsultancy = {
   title: "Project Management & Project Consultancy",
   shortDescription:
     "End-to-end project management and consultancy support for refinery and oil & gas projects, ensuring delivery on time, within budget, and in full compliance with technical, quality, and safety standards.",
-  heroImage: "/images/services/project-management.jpg",
+  heroImage: "/images/services/project-consultancy/project-management.jpg",
 
   sections: [
     {
@@ -30,6 +30,7 @@ const projectManagementConsultancy = {
     },
     {
       heading: "Cost Estimation & Budget Management",
+      image: "/images/services/project-consultancy/cost-risk-management.jpg",
       content: [
         "Our cost engineers prepare accurate cost estimates, budget forecasts, and cash flow analyses for all project phases.",
         "Through continuous monitoring, we maintain cost control and prevent overruns while ensuring value for money.",
